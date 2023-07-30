@@ -1,0 +1,34 @@
+.ques{
+	padding: 20px 40px;
+	background-color: rgb(37, 173, 66);
+	cursor: pointer;
+}
+.ans{
+	padding: 20px 40px;
+	background-color: rgb(93, 180, 93);	
+	display: none;
+}
+#draggable {
+ 	width: 150px; 
+	height: 150px; 
+	padding: 10px;
+	background-color: rgb(65, 216, 183);
+}
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 50%; 
+	position: relative;
+}
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+  	padding: 10px; 
+  	padding-left: 25px; 
+  	font-size: 18px; 
+  	height: 35px; 
+  }	
+#sortable li span { 
+  	position: absolute; 
+  	margin-left: -20px; 
+  }
